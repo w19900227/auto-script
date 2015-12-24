@@ -1,0 +1,9 @@
+#!/bin/sh
+
+ubuntu_install() {
+	sudo apt-get install -y $1
+}
+
+ubuntu_remove() {
+	sudo apt-get remove -y $1
+}
